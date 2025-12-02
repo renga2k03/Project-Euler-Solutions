@@ -11,7 +11,7 @@ Each of the Fibonacci terms are obtained by adding the previous two terms and th
 
 ## Approach :-
 1) **Start with 1 and 2 as the first two terms and find the subsequent terms till the given number** ($\text{if } a + b < n, c = a + b$ )
-2) **Check whether the subsequent term is even and add them to the summation variable** ( $\text{if } c \equiv 0 \pmod{2}  \text{then } s = s + c$ )
+2) **Check whether the subsequent term is even and add them to the summation variable** ( $\text{if } c \equiv 0 \pmod{2}, \text{then } s = s + c$ )
 3) **Display the summation variable**
 
 ## Complexity :
