@@ -2,12 +2,12 @@
 
 **Required Output :** Sum of all multiples of 3 or 5 below a given number
 
---
+
 
 ## Idea :-
 Multiples of 3 and 5 are two Arithmetic Progressions and the overlapping numbers are multiples of 15 which has to be removed from the summation
 
---
+
 
 ## Approach :-
 1) **Find the last multiple of 3, 5 and 15** which is less than the given number (considered as the last term of the APs)
