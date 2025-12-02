@@ -4,10 +4,12 @@
 
 
 ## Idea :-
-Brute force approach is very slower and TLE occurs for test cases when iterating through all n numbers
-Reduce the number of iterations by considering numbers only upto square root of the given number
-Further the composite numbers can be cut off by checking their divisibility with the smaller prime number
-Storing the prime numbers in a list over the iterations serves as a key factor in cutting off additional overhead in checking whether the factors are composite since the divisibility can be checked with just the stored prime numbers rather than every single number till the square root of the factor
+\begin{itemize}
+    \item Brute force approach is very slower and TLE occurs for test cases when iterating through all n numbers
+    \item Reduce the number of iterations by considering numbers only upto square root of the given number
+    \item Further the composite numbers can be cut off by checking their divisibility with the smaller prime number
+    \item Storing the prime numbers in a list over the iterations serves as a key factor in cutting off additional overhead in checking whether the factors are composite since the divisibility can be checked with just the stored prime numbers rather than every single number till the square root of the factor
+\end{itemize}
 
 
 ## Approach :-
