@@ -18,4 +18,4 @@
 5) **Display the value of $pf$ after having checked till square root of given number** ( final value of $pf$ serves as the largest prime factor)
 
 ## Complexity :
-**$O(\sqrt{n})$**
+**$$O(\sqrt{n})$$**
