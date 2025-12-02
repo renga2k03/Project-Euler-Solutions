@@ -8,7 +8,7 @@ Multiples of 3 and 5 are two Arithmetic Progressions and the overlapping numbers
 Approach :-
 1) Find the last multiple of 3, 5 and 15 which is less than the given number (considered as the last term of the APs)
 2) Find the number of terms of the APs ( $n = \frac{(l - a)}{d} + 1$ )
-3) Find the summations of respective APs ( $S = \frac{n}{2} (2 \times a + (n - 1) d)$ )
+3) Find the summations of respective APs ( $S = \frac{n}{2} (2a + (n - 1) d)$ )
 4) Add the summations of multiples of 3 and 5 while subtract the summation of multiples of 15 and display the result
 
 Complexity :
