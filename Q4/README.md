@@ -14,7 +14,7 @@
 
 ## Approach :-
 1) **Extract the first 3 digits of given number** ( $npalin = n / 1000$)
-2) **Decrementally iterate over $i starting from $npalin$ till 100 and append its reverse to form a resultant number $no$**
+2) **Decrementally iterate over $i$ starting from $npalin$ till 100 and append its reverse to form a resultant number $no$**
 3) **Traverse through the 3 digit factors of $no$ less than square root of the $no$ and check the length of quotient $otherno$**
 4) **If the quotient is also a 3 digit number, then display the palindrome product $no$ and exit the palindrome constructing outer loop**
 5) **Otherwise continue building the next smaller palindrome like in Step 2 and repeat the Steps 3 and 4**
