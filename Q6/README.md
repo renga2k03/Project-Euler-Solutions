@@ -11,7 +11,7 @@
 ## Approach :-
 1) **Find the square of the sum of first $n$ natural numbers $sqsum$** ( $(\frac{n * (n + 1)}{2})^2$ )
 2) **Find the sum of squares of first $n$ natural numbers $sumsq$** ( $\frac{n * (n + 1) * (2 * n + 1)}{6}$ )
-3) **Find the absolute difference between $$sumsq$$ and $sqsum$**
+3) **Find the absolute difference between $sumsq$ and $sqsum$**
 
 ## Complexity :
 **$O(t)$**
