@@ -21,4 +21,4 @@
 7) **Multiply all the prime factors from the dictionary $pfs$ raised to the power of their counts to get the smallest multiple that divides all positive integers upto the given number**
 
 ## Complexity :
-**$O(n\sqrt{n})$**
+**$O(t * n\sqrt{n})$**
