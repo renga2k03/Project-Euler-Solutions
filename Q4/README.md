@@ -20,4 +20,4 @@
 5) **Otherwise continue building the next smaller palindrome like in Step 2 and repeat the Steps 3 and 4**
 
 ## Complexity :
-**$O(n\sqrt{n})$**
+**$O(t * n\sqrt{n})$**
