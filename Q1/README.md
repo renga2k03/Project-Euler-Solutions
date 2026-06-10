@@ -16,4 +16,4 @@ Multiples of 3 and 5 are two Arithmetic Progressions and the overlapping numbers
 4) **Combine the summations** ( $Result = S_3 + S_5 - S_{15}$ )
 
 ## Complexity :
-**O(1)**
+**O(t)**
