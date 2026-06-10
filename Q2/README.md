@@ -15,4 +15,4 @@ Each of the Fibonacci terms are obtained by adding the previous two terms and th
 3) **Display the summation variable**
 
 ## Complexity :
-**O(log n)**
+**O(t * log n)**
