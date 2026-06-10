@@ -12,8 +12,8 @@
 
 
 ## Approach :-
-1) **Create a dictionary/hashmap to store the count of each prime factors** ( $pfs = /{/}$ )
-2) **Iterate over all numbers $i$ till given number $n$ and assign flag variable $f = 0 or 1$ accordingly to determine whether they are composite or not**
+1) **Create a dictionary/hashmap to store the count of each prime factors** ( $pfs$ = {} )
+2) **Iterate over all numbers $i$ till given number $n$ and assign flag variable ($f$ = 0 or 1) accordingly to determine whether they are composite or not**
 3) **If prime, then directly assign the number to $pfs$ and initialize with 1**
 4) **If composite, then break down the number with respect to each prime factor $j$ stored as keys in $pfs$ and determine the factor's count $ct$ till it divides the number $i$**
 5) **If the final count of that prime factor exceeds the count already assigned in $pfs$ then update it with the new count $ct$**
