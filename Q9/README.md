@@ -17,8 +17,8 @@
 1) **Initialize the maximum product with -1 to handle the case where no valid triplets exists** ( $maxprod = -1$ )
 2) **Iterate over the third triplet $c$ starting from one-third of given number $n/3$ till half of the given number $n/2$**
 3) **Compute the product $prod$ using given number and the triplet** ( $prod = n^2 * (2 * n * c) * c / 2$ )
-4) **Before solving the quadratic equation of the other two triplets, check the discriminant $d$ to be non negative to avoid imaginary solutions** ( $d = c^2 - n^2 + 2 * n * c$ )
-5) **Calculate the solutions for other two triplets $a$ and $b$ using quadratic formula** ( $a = ((n - c) - \sqrt{d}) / 2$ and $b = ((n - c) + \sqrt{d}) / 2$ )
+4) **Before solving the quadratic equation of the other two triplets, check the discriminant $d$ to be non-negative to avoid imaginary solutions** ( $d = c^2 - n^2 + 2 * n * c$ and $d >= 0$)
+5) **Calculate the solutions for other two triplets $a$ and $b$ using quadratic formula** ( $a = (n - c - \sqrt{d}) / 2$ and $b = (n - c + \sqrt{d}) / 2$ )
 6) **Check the validity of the triplets $a$, $b$, and $c$ and update the product if it exceeds the previous value of $maxprod$**
 
 ## Complexity :
