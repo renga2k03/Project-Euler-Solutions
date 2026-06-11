@@ -6,7 +6,7 @@
 ## Idea :-
 * Treat the large number as a string array and extract the numbers by a window of length of the given number
 * Compute the product of integers in the window and compare with the previous window's product to determine the largest product that can be obtained
-* Brute force is applicable in this version since the test cases particularly the number of consecutive digits to be considered is given to be less than or equal to 7
+* Brute force is applicable in this version since the test cases are not very large, particularly the number of consecutive digits to be considered is given to be less than or equal to 7
 
 
 ## Approach :-
