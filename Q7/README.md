@@ -12,10 +12,10 @@
 
 
 ## Approach :-
-1) **Find the maximum number among the test cases $maxn$**
+1) **Find the maximum number $maxn$ among the test cases**
 2) **Initially with $no$ as 2, iterate incrementally over odd numbers until the length of prime numbers sequence $pfs$ is less than $maxn$ and check whether $no$ is prime or not**
-3) **Check the divisibility of $no$ with already stored prime factors in $pfs$ less than the square root of $no$ and append to the sequence if it is prime**
-4) **For each test case $c$, print the $c - 1$-th number from prime number sequence $pfs$**
+3) **Check the divisibility of $no$ with already stored prime factors in $pfs$ less than the square root of $no$ and append $no$ to the sequence if it is prime**
+4) **For each test case $c$, print the $(c - 1)$-th number from prime number sequence $pfs$**
 
 ## Complexity :
 **$O(t + n\sqrt{n})$**
