@@ -11,7 +11,6 @@ nl.sort()
 maxn = max(nl)
 no = 2
 j = 0
-s = []
 while no <= maxn:
     f = 0
     for i in range(1, len(pfs)):
