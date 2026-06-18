@@ -2,7 +2,6 @@ import math
 def primefactorize(n):
     pf = 2
     pfs = []
-    dp = {}
     c = 1
     while pf * pf <= n:
         if n % pf == 0:
@@ -19,7 +18,6 @@ def primefactorize(n):
                     expc += 1
                     n = n // pf
                 c *= (expc + 1)
-                dp[pf] = expc
                 pfs.append(pf)
         if n > 1:
             if pf != 2:
@@ -28,7 +26,6 @@ def primefactorize(n):
                 pf += 1
     pfs.append(n)
     if n != 1:
-        dp[n] = 1
         c *= 2
     return(c)
 
@@ -38,11 +35,9 @@ while t:
     n = int(input())
     nl.append(n)
     t -= 1
-
 tr = []
 onl = nl.copy()
 dic = {}
-maxn = max(nl)
 nl.sort()
 s = 1
 i = 1
@@ -59,6 +54,5 @@ while j < len(onl):
     else:
         i += 1
         s += i
-
 for n in onl:
     print(dic[n])
