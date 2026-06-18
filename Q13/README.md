@@ -10,8 +10,8 @@
 
 
 ## Approach :-
-1) **Compute and store the sum of first 10 digits and last 40 digits** ( $n mod 10^40 and n / 10^40$ )
-2) **Add the carry over from the sum of 40 digits ( $last40 / 10^40$ ) to $first10$**
+1) **Compute and store the sum of first 10 digits and last 40 digits** ( $n mod 10^(40) and n / 10^(40)$ )
+2) **Add the carry over from the sum of 40 digits ( $last40 / 10^(40)$ ) to $first10$**
 3) **Find the first 10 digits from the above resultant sum** ( $/10^(length of first10 - 10)$ )
 
 ## Complexity :
