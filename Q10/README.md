@@ -8,7 +8,7 @@
 * Similar to Q8, a single sequence of primes upto the largest number among the test cases can be maintained to efficiently store primes as well as seperate the test case iterations from the prime checking segment
 * Apart from 2, iteratively each odd numbers are checked to be prime or not until the maximum required sequence length among the test cases is reached
 * Further reduce the number of iterations by considering only the prime factors that are already stored in the sequence and less than square root of the number being checked
-* Store a sorted temporary copy of the list cases to incrementally traverse the prime number sequencev and slice out the summation while avoiding any backtracking of the slicing index
+* Store a sorted temporary copy of the list cases to incrementally traverse the prime number sequence and slice out the summation while avoiding any backtracking of the slicing index
 * For each test case, retrieve the appropriate summation indexed in the hashmap
 
 
