@@ -21,7 +21,7 @@
 6) **Check the divisibility of $pf$ with already stored prime factors in $pfs$ less than the square root of $pf$ and append $pf$ to the sequence if it is prime**
 7) **Compute the number of times the prime factor $pf$ divides $n$ and store it in exponent count variable $expc$**
 8) **Multiply $expc + 1$ with $c$ which would eventually store the overall count of number of factors**
-9) **Handle the exception of $n = 3$ by returning 2 as the number of divisors**
+9) **Handle the exception of $n = 3$ by returning 2 as the number of factors**
 10) **If the returned count of factors $pfc$ exceeds the given test case, then store and map the triangular number with that test case in a dictionary $dic$**
 11) **For each test case $n$, print the triangular number indexed to it in the dictionary $dic$**
 
