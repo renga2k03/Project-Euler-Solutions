@@ -9,7 +9,7 @@
 * The first base case constitutes the subproblem involving the first line with a single cell with just its value being included into total
 * The subsequent cases constitutes the row elements and their possible paths through their previous ancestors having the total being added up all the way through the path till then
 * In case of two ancestors, the path with maximum total is chosen
-* A similar triangular array can be used to estimate the maximum total with respect to each lines and each cells
+* A new triangular array can be used to estimate the maximum total with respect to each lines and each cells
 * The maximum total value among the final line elements gives the maximum path sum
 
 
