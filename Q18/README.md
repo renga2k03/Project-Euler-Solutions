@@ -17,7 +17,7 @@
 1) **Create an empty array `dist_lines` which gradually stores the maximum path sum for each cell of each line**
 3) **In case of first line, directly append the only value to `dist_lines`**
 4) **Traverse through the other lines of the triangle and calculate the maximum total for each element of the line**
-5) **If the element is in either of the extremes, then directly add the previous line's total and the current value and update to the current line's array `next_line`**
+5) **If the element is in either of the extremes, then directly add its only previous line ancestor's total and the current value and update to the current line's array `next_line`**
 6) **Otherwise, add the current value with the maximum total among the two ancestral cells `(i-1 , j-1) , (i-1 , j)` and update to `next_line`**
 7) **After completing the traversal of the current line, append the array `next_line` to `dist_lines`**
 8) **The maximum value from the final line of `dist_lines` gives the required maximum path sum**
