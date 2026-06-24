@@ -1,6 +1,6 @@
 # Q19 - Counting Sundays
 
-**Required Output :** Number of Sundays between two given dates that fall on the first of a month
+**Required Output :** Number of Sundays that fall on the first of a month between two given dates
 
 
 ## Idea & Approach :-
