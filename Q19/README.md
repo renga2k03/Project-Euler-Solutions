@@ -4,7 +4,7 @@
 
 
 ## Idea & Approach :-
-* Iterating through all dates and checking would be incredibly tedious and hence can increment over only Sundays by 7 ignoring other days
+* Iterating through all dates and checking would be incredibly tedious and hence can increment over only Sundays by ignoring other 6 days
 * But iterating from Jan 1, 1900 all over to the given start date to find the first Sunday occurence would consume lot of time
 * Since Jan 1, 1900 is given as Monday, the first Sunday occurence is Jan 7. Hence a day would be Sunday if the total number of days till the given date is divisible by 7 (Hypothetically Jan 0 is Sunday)
 * But even computing the first Sunday within the given dates is far from optimal in case of very huge year numbers as the upper bound of test case can go as far as $10^{16}$
