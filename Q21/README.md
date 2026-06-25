@@ -23,7 +23,7 @@
 3) **Find the maximum number $maxn$ among the test cases**
 4) **Starting from 1, iterate incrementally over numbers until $maxn$ and check for amicable numbers and compute their sum**
 5) **If current traversal index $n$ is already present in the amicable's list $amic$, directly add it to the total summation variable $totsum$. Otherwise go ahead and compute the sum of divisors of $n$ as $dsum1$**
-6) **In the `divsum` function starting from 2 till the square root of the number, check the divisibility of numbers and if so, add the factor $i$ and its quotient on dividing the number $ (n // i )$ to the summation variable $s$ which is initialized as 1 (includes 1 but excludes the number itself)**
+6) **In the `divsum` function starting from 2 till the square root of the number, check the divisibility of numbers and if so, add the factor $i$ and its quotient on dividing the number $( n // i )$ to the summation variable $s$ which is initialized as 1 (includes 1 but excludes the number itself)**
 7) **Assign $dsum1$ with the sum returned by `divsum` and further compute the sum of factors of $dsum1$ using `divsum` and assign it to another variable $dsum2$**
 8) **If $dsum2$ and $n$ are equal while $dsum1$ and $n$ are distinct, then append both the numbers of the pair $n$ and $dsum1$ to an array $amic$ if they are not already present in it. Also add only $n$ to the $totsum$ variable**
 9) **If given test case matches with the current index $n$, then store $totsum$ in a dictionary $tcasesum$ with the key as the current test case and move to the next test case**
