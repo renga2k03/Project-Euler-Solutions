@@ -6,7 +6,7 @@
 ## Idea :-
 * Iterating through all test cases causes a TLE in case of huge number of test cases due to evaluation of factorials requiring to start over from 1 repetitively for all cases
 * A single traversal from 0 till the largest number among the test cases can be done to efficiently store the solutions for each test cases in a hashmap as every integer has a unique factorial
-* Store a sorted temporary copy of the list cases to incrementally traverse and assign the summation of digits of the factorial whenever the traversal index is same as the test case value
+* Store a sorted temporary copy of the list of test cases to incrementally traverse and assign the summation of digits of the factorial whenever the traversal index is same as the test case value
 * Except for 0 whose factorial is 1, iteratively each numbers are multiplied onto a variable to compute the factorial with respect to each number
 * However the temporary copy of list must not possess any repeated numbers since the loop skips to next number and would fail to detect the multiple occurences of any number
 * For each test case, retrieve the appropriate summation indexed in the hashmap
