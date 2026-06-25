@@ -18,9 +18,9 @@
 3) **Find the maximum number $maxn$ among the test cases**
 4) **Starting from 0, iterate incrementally over numbers until $maxn$ and compute the product of numbers upto each number over the variable $f$**
 5) **In case of 0, multiply $f$ (which has a default value 1) by 1. Otherwise multiply $f$ by the current index $i$ itself**
-7) **If given test case matches with the current index $i$, then convert the factorial $f$ into a string and then into a list of characters**
-8) **Map the list of characters as integer type, find the summation of the resultant integer array and store in a dictionary $tsoln$ with the key as the current test case**
-9) **For each test case, print the summation indexed to it in the dictionary $tsoln$**
+6) **If given test case matches with the current index $i$, then convert the factorial $f$ into a string and then into a list of characters**
+7) **Map the list of characters as integer type, find the summation of the resultant integer array and store in a dictionary $tsoln$ with the key as the current test case**
+8) **For each test case, print the summation indexed to it in the dictionary $tsoln$**
 
 ## Complexity :
 **$O(n)$** (According to given test cases, the upper limit of n exceeds t and since the loops on t and maxn are seperate, the worst case constitutes maxn iterations)
