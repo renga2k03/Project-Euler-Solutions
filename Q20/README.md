@@ -23,4 +23,4 @@
 8) **For each test case, print the summation indexed to it in the dictionary $tsoln$**
 
 ## Complexity :
-**$O(n)$** (According to given test cases, the upper limit of n exceeds t and since the loops on t and maxn are seperate, the worst case constitutes maxn iterations)
+**$O(n)$** (According to given test cases, the upper limit of n exceeds t and since the loops on t and maxn are seperate, the worst case constitutes maxn iterations. Also sorting of t test cases (t log t) is still lesser than maxn)
