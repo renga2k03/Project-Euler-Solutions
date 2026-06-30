@@ -10,7 +10,7 @@
 * Likewise in Q23, the temporary copy of list must not possess any repeated numbers since the loop skips to next number and would fail to detect the multiple occurences of any number
 * Initially with a and b as 1 being the first two terms and also having n as 2 to indicate b as the 2nd number of the series, compute the subsequent numbers of the series as the sum of the two previous numbers
 * However computing the number of digits of very huge numbers that exceed 4300 digits can cause memory exceptions when converting them to a string list and calculating the length. Also TLEs occur when looping over 1000s of digits for 1000s of test cases to find the number of digits by integer division by 10
-* Hence a variable is maintained to store the number of digits. Initially being 1, the variable increments when the Fibonacci number on division by 10 raised to the previous value of the variable exceeds 0
+* Hence a variable is maintained to store the number of digits. Initially being 1, the variable increments when the Fibonacci number exceeds 10 to the power of previous value of the variable
 * If the number of digits variable equals a test case, then update the Fibonacci number's position into a hashmap indexing with the current test case and move on to the next test case and next traversal index
 * For each test case, retrieve the appropriate position of the Fibonacci number indexed in the hashmap
 
