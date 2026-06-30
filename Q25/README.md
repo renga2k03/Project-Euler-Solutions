@@ -7,7 +7,7 @@
 * Iterating through all test cases causes a TLE in case of huge number of test cases due to repetitive traversals over overlapping regions in different test cases bounds
 * A single traversal from 1 till the largest number among the test cases can be done to efficiently store the solutions for each test cases in a hashmap
 * Store a sorted temporary copy of the list of test cases to incrementally traverse and assign the Fibonacci number's index (or position in the Fibonacci series) when the number of digits is same as the test case value
-* Likewise in Q20, the temporary copy of list must not possess any repeated numbers since the loop skips to next number and would fail to detect the multiple occurences of any number
+* Likewise in Q23, the temporary copy of list must not possess any repeated numbers since the loop skips to next number and would fail to detect the multiple occurences of any number
 * Initially with a and b as 1 being the first two terms and also having n as 2 to indicate b as the 2nd number of the series, compute the subsequent numbers of the series as the sum of the two previous numbers
 * However computing the number of digits of very huge numbers that exceed 4300 digits can cause memory exceptions when converting them to a string list and calculating the length. Also TLEs occur when looping over 1000s of digits for 1000s of test cases to find the number of digits by integer division by 10
 * Hence a variable is maintained to store the number of digits. Initially being 1, the variable increments when the Fibonacci number on division by 10 raised to the previous value of the variable exceeds 0
