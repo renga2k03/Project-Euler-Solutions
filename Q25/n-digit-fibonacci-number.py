@@ -18,7 +18,7 @@ while ndigits <= maxn and i < len(tsorted):
     a = b
     b = c
     n += 1
-    if b // 10 ** ndigits > 0:
+    if b >= 10 ** ndigits:
         ndigits += 1
 for t in tlist:
     print(tsoln[t])
