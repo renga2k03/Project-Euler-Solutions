@@ -20,7 +20,7 @@
 ## Approach :-
 1) **Store an array of characters of the word "abcdefghijklm" in $word$**
 2) **Compute factorials from 1 to 13 and store them in an array $fact$**
-3) **Starting from 1!, iterate incrementally over the factorials until the given required permutation number $n$ exceeds a factorial and otherwise till all factorials are traversed**
+3) **Starting from 1!, iterate incrementally over the factorials until the given required permutation number $n$ exceeds a factorial or otherwise till all factorials are traversed**
 4) **Slice out the characters from 0 to $( - j - 2 )$ from $word$ as $unshuffle_letters$ and remaining characters from $( - j - 1 )$ as $shuffle_letters$**
 5) **Assign permutation index variable $per_index$ initially as $n$**
 6) **While traversing decrementally over j as long as $( - j - 1 )$ remains less than 0, compute the $letter_no$ for the $j$th position by dividing $per_index$ with $( j - 1 )$th factorial**
