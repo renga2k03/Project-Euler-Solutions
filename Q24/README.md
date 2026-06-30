@@ -7,7 +7,7 @@
 * Computing and iterating through all permutations of the given word can be tedious and cause TLE due to huge number of iterations and even the memory space required to store them which could go up to 13!
 * As the word is already given to be "abcdefghijklm", store the characters of the word in an array and also all factorials upto 13 in another array
 * Each factorial from 1 to 13 indicates the number of shuffles or permutations possible in characters from 1 to 13 positions respectively
-* To identify the number of characters to be shuffled for the given position N, find the smallest factorial that exceeds the given number
+* To identify the number of characters to be shuffled for the given position N, find the largest factorial that is less than the given number
 * Seperate the entire word into two arrays, one for the unshuffled characters with respect to the test case and other for the shuffled characters which comprises the entities from the position where the factorial exceeds the given number
 * From left to right in the shuffled array, the number of possible letters in each position would decreases from being possible to place any letters in the lefmost position to being able to place only the remaining one character in the rightmost position
 * To find out the shuffle step count of each position, divide the given position N with the factorial of each position's permutation count to find the step count of shuffle and append the letter to the unshuffled list while popping it out from the shuffled list.
