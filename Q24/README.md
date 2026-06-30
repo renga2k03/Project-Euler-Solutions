@@ -21,13 +21,13 @@
 1) **Store an array of characters of the word "abcdefghijklm" in $word$**
 2) **Compute factorials from 1 to 13 and store them in an array $fact$**
 3) **Starting from 1!, iterate incrementally over the factorials until the given required permutation number $n$ exceeds a factorial or otherwise till all factorials are traversed**
-4) **Slice out the characters from 0 to $( - j - 2 )$ from $word$ as $unshuffle_letters$ and remaining characters from $( - j - 1 )$ as $shuffle_letters$**
-5) **Assign permutation index variable $per_index$ initially as $n$**
-6) **While traversing decrementally over j as long as $( - j - 1 )$ remains less than 0, compute the $letter_no$ for the $j$th position by dividing $per_index$ with $( j - 1 )$th factorial**
-7) **If $( j - 1 )$th factorial divides $per_index$ exactly, then append $unshuffle_letters$ with $( letter_no - 1 )$th character from $shuffle_letters$ and pop it out from $shuffle_letters$. Also assign $per_index$ as the $( j - 1 )$th factorial itself**
-8) **Otherwise append $unshuffle_letters$ with $( letter_no )$th character from $shuffle_letters$ and pop it out from $shuffle_letters$. Assign $per_index$ as the $per_index$ (mod $( j - 1 )$th factorial)**
-9) **If $( j - 1 )$th factorial reaches 1, then append $unshuffle_letters$ with $( per_index - 1 )$th character from $shuffle_letters$ and pop it out from $shuffle_letters$**
-10) **Join the $unshuffle_letters$ list with the $shuffle_letters$ which contains the last character left out after removal of other letters and print the $n$th lexicographic permutation
+4) **Slice out the characters from 0 to $( - j - 2 )$ from $word$ as $unshuffle letters$ and remaining characters from $( - j - 1 )$ as $shuffle letters$**
+5) **Assign permutation index variable $per index$ initially as $n$**
+6) **While traversing decrementally over j as long as $( - j - 1 )$ remains less than 0, compute the $letter no$ for the $j$th position by dividing $per index$ with $( j - 1 )$th factorial**
+7) **If $( j - 1 )$th factorial divides $per index$ exactly, then append $unshuffle letters$ with $( letter no - 1 )$th character from $shuffle letters$ and pop it out from $shuffle letters$. Also assign $per index$ as the $( j - 1 )$th factorial itself**
+8) **Otherwise append $unshuffle letters$ with $( letter no )$th character from $shuffle letters$ and pop it out from $shuffle letters$. Assign $per index$ as the $per index$ (mod $( j - 1 )$th factorial)**
+9) **If $( j - 1 )$th factorial reaches 1, then append $unshuffle letters$ with $( per index - 1 )$th character from $shuffle letters$ and pop it out from $shuffle letters$**
+10) **Join the $unshuffle letters$ list with the $shuffle letters$ which contains the last character left out after removal of other letters and print the $n$th lexicographic permutation
 
 ## Complexity :
 **$O(t)$** (Each inner loop can only go upto maximum 13 iterations)
