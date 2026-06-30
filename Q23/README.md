@@ -25,13 +25,13 @@
 3) **Find the maximum number $maxn$ among the test cases**
 4) **Starting from 1, iterate incrementally over numbers until $maxn$ and check for abundant numbers and store them in an array $abundant$**
 5) **If current test case value is less than 12, directly assign "NO" as the solution in a dictionary $tcasesoln$ with the key as the current test case and move to the next test case**
-6) **For other values of traversal index $n$, compute the sum of factors using `divusom` and check if it exceeds $n$**
+6) **For other values of traversal index $n$, compute the sum of factors using `divsum` and check if it exceeds $n$**
 7) **In the `divsum` function starting from 2 till the square root of the number, check the divisibility of numbers and if so, add the factor $i$ and its quotient on dividing the number $( n / i )$ to the summation variable $s$ which is initialized as 1 (includes 1 but excludes the number itself)**
 8) **If the sum returned by `divsum` exceeds $n$, include the number $n$ into an array $abundant$**
 9) **If given test case matches with the current index $n$, then assign a flag variable as 0 initially and iterate over all known abundant numbers to check if when subtracted from $n$ gives an abundant number present in $abundant$**
 10) **If present, assign $flag$ as 1 and assign "YES" to the current test case in the dictionary $tcasesoln$ and move to the next test case**
 11) **Otherwise if none of the numbers could end up with an abundant number as the result when subtracted from $n$ and the $flag$ stays as 0, then assign "NO" to the current test case in the dictionary $tcasesoln$ and move to the next test case**
-12) **For each test case, print the summation indexed to it in the dictionary $tcasesum$**
+12) **For each test case, print the summation indexed to it in the dictionary $tcasesoln$**
 
 ## Complexity :
 **$O(n\sqrt{n})$**
